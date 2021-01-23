@@ -1,3 +1,10 @@
+# Original Code by TechWithTim(Youtube)
+# Version 1.0
+# TODO LIST
+# 1 - Add Tetris Music
+# 2 - Add a check to see if scores.txt file already exists, if not, create it and put score of 0 in the file.
+# 3 - Fix any lingering bugs like lines not clearing properly.
+
 import pygame
 import random
 
