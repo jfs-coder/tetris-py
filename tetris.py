@@ -9,6 +9,11 @@ import pygame
 import random
 
 pygame.font.init()
+pygame.mixer.init()
+
+# load music 
+pygame.mixer.music.load("tetris.mp3")
+pygame.mixer.music.play(-1)
 
 # GLOBALS VARS
 s_width = 800
